@@ -1,31 +1,29 @@
-\documentclass[journal]{IEEEtran}
+\documentclass[conference]{IEEEtran}
 \usepackage[utf8]{inputenc}
 \usepackage{lipsum}
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos, ]{todonotes}
 
 
-\title{Ericsson HB107\\\Large{The first smartphone platform with high quality camera}}
+\title{Ericsson HB107\\[1ex]\LARGE{The first smartphone platform with high quality camera}}
 %\author{C.~Aknesil, J.~Altayó}
-\author{Michael~Shell,~\IEEEmembership{Member,~IEEE,
-} John~Doe,~\IEEEmembership{Fellow,~OSA,} and~Jane~D
-oe,~\IEEEmembership{Life~Fellow,~IEEE}%
-\thanks{Manuscript received January 20, 2002; revise
-d August 26, 2015. This work was supported by the IE
-EE.}%
-\thanks{M. Shell was with the Georgia Institute of T
-echnology.}}
+
+\author{
+    Can Aknesil\\KTH Royal Institute of Technology\\\texttt{aknesil@kth.se}
+    
+    \and
+    
+    Jordi Altayó\\KTH Royal Institute of Technology\\\texttt{jordiag@kth.se}
+    }
+    
 
 \date{September 2019}
 
 \begin{document}
 \maketitle
-
-\todo{CORRECT THE AUTHORS}
-
 \begin{abstract}
 The authors conducted an interview with Mr.~Tobias~Lindquist, an Ericsson employee, and project manager. 
-The focus was put on the HB107 project, with the main objective as the development and maintenance of a smartphone platform of the Sony Ericsson line. Several aspects of the project are discussed. The main goals was to finish the project on time. The organization of the project had a deep hierarchy consisting of more than four layers of sub-projects. The traditional project management is applied to at least top two layers of the project. Agile methodologies are sometimes applied to sub-projects of more than three layers. The management team had to deal with a long list of risks, delays in mass production being the one related to the worst consequence.
+The focus was put on the HB107 project, with the main objective as the development and maintenance of a smartphone platform of the Sony Ericsson line. Several aspects of the project are discussed. The main goal was to finish the project on time. The organization of the project had a deep hierarchy consisting of more than four layers of sub-projects. The traditional project management is applied to at least the top two layers of the project. Agile methodologies are sometimes applied to sub-projects of more than three layers. The management team had to deal with a long list of risks, delays in mass production being the one related to the worst consequence.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -57,7 +55,7 @@ The second major directive given was to achieve a successful amount of features 
 Finally, the last major target was keeping the cost per unit (the money one should pay to buy one mobile phone) as low as possible. 
 
 \section{The Challenges}
-A project of big magnitude such as this one involves many challenges that needs to be adressed during the development and management strategies.
+A project of big magnitude such as this one involves many challenges that need to be addressed during the development and management strategies.
 \subsection{The Time Constraint}
 The biggest challenge was the time constraint. 
 
@@ -86,10 +84,10 @@ The project was divided into more than three levels of sub-projects. The main pr
 
 This complex organization imposed several challenges, one of them being the difficulty of parallelizing the work among different sub-projects. Fortunately, the system architecture was not experiencing big changes (explained later in more detail), so projects had fixed interfaces among them from the beginning of the project.
 
-\subsection{Internal Comunicacion}
-Communication was essential to achieve progress in interconnected sub-projects performed by different teams, the teams developing part of the hardware that has a common interface for instance. Project managers made sure the teams had the means to communicate.  
+\subsection{Internal Communication}
+Communication was essential to achieve progress in interconnected sub-projects performed by different teams, the teams developing part of the hardware that has a common interface for instance. Project managers made sure the teams had the means to communicate. 
 
-\todo{Elaborate, how did they enable communication?}
+Different tools were used to enable communication among different groups, specially the testing/verification group with the developers. An example of tools used is JIRA, an issue tracker. With this tool test engineers can efficiently describe issues found during the test phase of a software or hardware design. After the creation of an issue, designers where able to read the comments and description of the issue that the verification engineer had introduced to the issue tracker. When the necessary moddifications were applied the design engineer could easily notify the verification engineer so the test could be repeated and, if the result was successful, the issue can be closed.
 
 \section{The Methodology}
 A traditional management approach was used for higher levels of management. The time required from the beginning of the project to the release of the first version was very long, about one year. Together with time-to-market constraints and high competition prevented the use of agile project management. There was no resource to support agile development in the higher levels because of long-term commitments: factories had to be prepared, employees had to be trained, etc. 
@@ -125,10 +123,10 @@ A very good example that Mr.~Tobias provided was to look at the cumulative cost 
 An interesting comment from Mr.~Tobias in the interview was that workers will tend not to communicate issues at an early stage since they will be confident that the issue can be solved by themselves. On many occasions, this can generate major delays if a different method was used.
 
 \section{The Risk Management \& The Risks}
-The HB107 project had to deal with a long list of risks and uncertainties that were discussed during the interview. Even though smartphone development was not a new industry, unexpected problems were common, as explained below, and consequences of these problems were magnified by the time constraint. 
+The HB107 project had to deal with a long list of risks and uncertainties that were discussed during the interview. Even though smartphone development was not a new industry, unexpected problems were common, as explained below, and the consequences of these problems were magnified by the time constraint. 
 
 \subsection{The Risk Management}
-The management of risks were performed starting from the requirement analysis, however this management was very difficult since competition with other companies forced some of the risks to be taken. In case of an unexpected problem, every possible resource, including the ones allocated to other projects, was temporarily redirected to solve the pop-up problem.
+The management of risks was performed starting from the requirement analysis, however, this management was very difficult since competition with other companies forced some of the risks to be taken. In case of an unexpected problem, every possible resource, including the ones allocated to other projects, was temporarily redirected to solve the pop-up problem.
 
 \subsection{The Risks}
 One of the biggest issues that could occur during the mass production was the suppliers not being able to deliver the amounts of components required to produce the devices. This event could break the supply chain and generate a lack of stocks that could have a negative impact on the sales of the product.
